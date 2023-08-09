@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5e2d884-7f09-4a4b-993d-a205b1cb97bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqClient/common/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqClient/common/MessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqClient/common/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqClient/utils/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqClient/view/QQView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqServer/common/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqServer/common/MessageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqServer/common/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oo/qqClient/service/UserClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/common/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/qqClient/common/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/view/QQView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/qqClient/view/QQView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/zowcool/Desktop/Projects/qqApp/src/com/oo/qqClient/common",
+    "last_opened_file_path": "/Users/zowcool/Desktop/Projects/qqApp",
     "onboarding.tips.debug.path": "/Users/zowcool/Desktop/Projects/qqApp/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
