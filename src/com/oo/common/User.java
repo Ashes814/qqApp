@@ -1,4 +1,4 @@
-package com.oo.qqServer.common;
+package com.oo.common;
 
 import java.io.Serializable;
 
@@ -12,6 +12,8 @@ public class User implements Serializable { // 序列化，使得User对象能�
     private static final long serialVersionUID = 1L; // 增加序列化后的兼容性
     private String userId;
     private String passwd;
+
+    public User() {}
 
     public User(String userId, String passwd) {
         this.userId = userId;

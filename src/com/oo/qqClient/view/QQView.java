@@ -1,5 +1,6 @@
 package com.oo.qqClient.view;
 
+import com.oo.qqClient.service.UserClientService;
 import com.oo.qqClient.utils.Utility;
 
 /**
@@ -10,6 +11,7 @@ import com.oo.qqClient.utils.Utility;
 public class QQView {
     private boolean loop = true; // control menus visibility
     private String key = ""; // accept user input
+    private UserClientService userClientService = new UserClientService(); // for sign in and sign up
 
     public static void main(String[] args) {
         new QQView().mainMenu();
@@ -30,7 +32,7 @@ public class QQView {
                     System.out.print("Password: ");
                     String password = Utility.readString(50);
                     // Go to Server for validation
-                    if (true) {
+                    if (userClientService.checkUser(userId, password)) {
                         System.out.println("==========Welcome" + userId+"==========");
                         // level 2 menu
                         while (loop) {

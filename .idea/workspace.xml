@@ -5,10 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5e2d884-7f09-4a4b-993d-a205b1cb97bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqClient/service/UserClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oo/qqClient/service/ClientConnectServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oo/qqClient/service/ManageClientConnectServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oo/qqFrame/QQFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oo/qqServer/service/ManageServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oo/qqServer/service/QQServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/oo/qqServer/service/ServerConnectClientThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/common/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/qqClient/common/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/common/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/common/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/common/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/common/MessageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/common/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/common/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/service/UserClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/qqClient/service/UserClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/view/QQView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/qqClient/view/QQView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqServer/common/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqServer/common/MessageType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqServer/common/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/zowcool/Desktop/Projects/qqApp",
     "onboarding.tips.debug.path": "/Users/zowcool/Desktop/Projects/qqApp/src/Main.java",
@@ -54,6 +67,54 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.oo.qqClient.utils" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.QQView">
+    <configuration name="QQFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oo.qqFrame.QQFrame" />
+      <module name="qqApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oo.qqFrame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QQServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oo.qqServer.service.QQServer" />
+      <module name="qqApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oo.qqServer.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QQView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oo.qqClient.view.QQView" />
+      <module name="qqApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oo.qqClient.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QQView" />
+        <item itemvalue="Application.QQFrame" />
+        <item itemvalue="Application.QQServer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -1,4 +1,4 @@
-package com.oo.qqServer.common;
+package com.oo.common;
 
 /**
  * @author 欧欧
