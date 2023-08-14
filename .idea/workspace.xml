@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5e2d884-7f09-4a4b-993d-a205b1cb97bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqClient/service/ClientConnectServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqClient/service/ManageClientConnectServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqFrame/QQFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqServer/service/ManageServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqServer/service/QQServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oo/qqServer/service/ServerConnectClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/common/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/common/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/common/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/common/MessageType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/common/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/common/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/service/UserClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/qqClient/service/UserClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/view/QQView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/qqClient/view/QQView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/oo/qqServer/common/Message.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/oo/qqServer/common/MessageType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/oo/qqServer/common/User.java" beforeDir="false" />
-    </list>
+    <list default="true" id="a5e2d884-7f09-4a4b-993d-a205b1cb97bd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
