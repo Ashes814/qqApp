@@ -24,7 +24,6 @@ public class QQServer {
         validUsers.put("100", new User("100", "123456"));
         validUsers.put("200", new User("200", "123456"));
         validUsers.put("300", new User("300", "123456"));
-        validUsers.put("400", new User("400", "123456"));
         validUsers.put("atm", new User("atm", "123456"));
         validUsers.put("btm", new User("btm", "123456"));
         validUsers.put("ctm", new User("ctm", "123456"));
