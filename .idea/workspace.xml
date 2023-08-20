@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5e2d884-7f09-4a4b-993d-a205b1cb97bd" name="Changes" comment="" />
+    <list default="true" id="a5e2d884-7f09-4a4b-993d-a205b1cb97bd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/common/MessageType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/common/MessageType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/service/ClientConnectServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/qqClient/service/ClientConnectServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/service/ManageClientConnectServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/qqClient/service/ManageClientConnectServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqClient/service/UserClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/qqClient/service/UserClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/oo/qqServer/service/ServerConnectClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/oo/qqServer/service/ServerConnectClientThread.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,19 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/zowcool/Desktop/Projects/qqApp",
-    "onboarding.tips.debug.path": "/Users/zowcool/Desktop/Projects/qqApp/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zowcool/Desktop/Projects/qqApp&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/zowcool/Desktop/Projects/qqApp/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/oo/qqClient/common" />

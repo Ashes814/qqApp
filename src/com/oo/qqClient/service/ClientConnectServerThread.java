@@ -1,6 +1,7 @@
 package com.oo.qqClient.service;
 
 import com.oo.common.Message;
+import com.oo.common.MessageType;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -25,6 +26,18 @@ public class ClientConnectServerThread extends Thread {
             try {
                 ObjectInputStream ois = new ObjectInputStream(socket.getInputStream());
                 Message message = (Message) ois.readObject(); // Without Message, Thread will be blocked
+                if(message.getMesType().equals(MessageType.MESSAGE_RET_ONLINE_FRIEND)) {
+                    // get and show current online friends list
+                    String[] onlineUsers = message.getContent().split(" ");
+                    System.out.println("=====Current online user list======");
+                    for (int i = 0; i < onlineUsers.length; i++) {
+                        System.out.println("User: " + onlineUsers[i]);
+
+                    }
+
+                } else {
+                    System.out.println("we don't handle other type now");
+                }
             } catch (IOException e) {
                 throw new RuntimeException(e);
             } catch (ClassNotFoundException e) {

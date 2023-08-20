@@ -4,6 +4,7 @@ import com.oo.common.Message;
 import com.oo.common.MessageType;
 import com.oo.common.User;
 
+import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.InetAddress;
@@ -59,5 +60,21 @@ public class UserClientService {
         return b;
 
 
+    }
+
+    // ask for online friend list
+    public void onlineFriendList() {
+        // Send A Message, MESSAGE_GET_ONLINE_FRIEND
+        Message message = new Message();
+        message.setMesType(MessageType.MESSAGE_GET_ONLINE_FRIEND);
+
+        // Send to Server
+        // should get current Socket's OOS
+        try {
+            ObjectOutputStream oos = new ObjectOutputStream(ManageClientConnectServerThread.getClientConnectServerThread(u.getUserId()).getSocket().getOutputStream());
+            oos.writeObject(message); // Send a Message object ask server for online user list
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

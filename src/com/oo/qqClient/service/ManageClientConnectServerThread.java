@@ -1,6 +1,7 @@
 package com.oo.qqClient.service;
 
 import java.util.HashMap;
+import java.util.Iterator;
 
 /**
  * @author 欧欧
@@ -17,6 +18,18 @@ public class ManageClientConnectServerThread {
     // get thread by userID
     public static ClientConnectServerThread getClientConnectServerThread(String userId) {
         return hm.get(userId);
+    }
+
+    // Return User list
+    public static String getOnlineUser() {
+        // iterate the key of hashmap
+        Iterator<String> iterator = hm.keySet().iterator();
+        String onlineUserList = "";
+        while (iterator.hasNext()) {
+            onlineUserList += iterator.next().toString() + " ";
+        }
+        return onlineUserList;
+
     }
 
 }
